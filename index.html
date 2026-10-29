@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#12345a">
+  <title>МБУ ФОК «Юбилейный»</title>
+  <style>
+    :root { --blue:#1769c2; --navy:#12345a; --bg:#f3f7fc; --text:#182536; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Arial,Helvetica,sans-serif; color:var(--text); background:var(--bg); }
+    main { width:min(100%,520px); margin:0 auto; padding:18px 16px 28px; }
+    header { background:linear-gradient(135deg,#12345a,#1d70c9); color:white; padding:26px 20px; border-radius:22px; margin-bottom:18px; }
+    .mark { font-size:32px; margin-bottom:10px; }
+    h1 { font-size:25px; line-height:1.2; margin:0 0 8px; }
+    header p { margin:0; line-height:1.45; color:#e2efff; }
+    .intro { font-size:14px; line-height:1.5; margin:0 2px 14px; color:#526276; }
+    .menu { display:grid; gap:10px; }
+    a.item { display:flex; align-items:center; gap:14px; padding:16px; border-radius:15px; background:#fff; color:var(--text); text-decoration:none; box-shadow:0 2px 10px #16385c0c; border:1px solid #e4ebf4; }
+    .emoji { width:42px; height:42px; display:grid; place-items:center; border-radius:12px; background:#eaf3ff; font-size:22px; flex:0 0 42px; }
+    .label { font-size:16px; font-weight:700; }
+    .hint { display:block; margin-top:4px; color:#65758a; font-size:12px; font-weight:400; line-height:1.4; }
+    .arrow { margin-left:auto; color:var(--blue); font-size:22px; }
+    footer { text-align:center; color:#69788a; font-size:12px; line-height:1.5; margin-top:22px; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="mark" aria-hidden="true">🏆</div>
+      <h1>МБУ ФОК «Юбилейный»</h1>
+      <p>Спорт рядом с вами</p>
+    </header>
+    <p class="intro">Выберите нужный раздел. Информация и расписание будут открываться по ссылкам ФОКа.</p>
+    <nav class="menu" aria-label="Разделы ФОКа">
+      <a class="item" href="https://vk.com/" target="_blank" rel="noopener noreferrer">
+        <span class="emoji">🗓️</span><span><span class="label">Расписание секций</span><span class="hint">Вставьте ссылку на актуальное расписание</span></span><span class="arrow">›</span>
+      </a>
+      <a class="item" href="https://vk.com/" target="_blank" rel="noopener noreferrer">
+        <span class="emoji">📰</span><span><span class="label">Новости и мероприятия</span><span class="hint">Анонсы и итоги спортивных событий</span></span><span class="arrow">›</span>
+      </a>
+      <a class="item" href="https://vk.com/" target="_blank" rel="noopener noreferrer">
+        <span class="emoji">🏟️</span><span><span class="label">Наши спортивные площадки</span><span class="hint">Информация о залах и направлениях</span></span><span class="arrow">›</span>
+      </a>
+      <a class="item" href="https://vk.com/" target="_blank" rel="noopener noreferrer">
+        <span class="emoji">✍️</span><span><span class="label">Запись на занятия</span><span class="hint">Свяжитесь с ФОКом для уточнения записи</span></span><span class="arrow">›</span>
+      </a>
+      <a class="item" href="https://vk.com/" target="_blank" rel="noopener noreferrer">
+        <span class="emoji">📞</span><span><span class="label">Контакты</span><span class="hint">Адрес, телефон и электронная почта</span></span><span class="arrow">›</span>
+      </a>
+    </nav>
+    <footer>Карталинский муниципальный округ<br>Официальная информационная страница спортивного учреждения</footer>
+  </main>
+</body>
+</html>
